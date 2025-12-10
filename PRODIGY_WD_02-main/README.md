@@ -1,0 +1,1 @@
+This stopwatch application was developed with HTML, CSS, and JavaScript for Task 1 of the Prodigy InfoTech Web Development Internship. It features a minimalist design, a responsive interface, and provides a smooth user experience on any device.
