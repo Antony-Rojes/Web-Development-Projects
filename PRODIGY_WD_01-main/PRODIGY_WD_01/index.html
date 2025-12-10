@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Project 1 - Perfect Navbar & Hero</title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="nav-container container">
+      <a href="#" class="brand"></a>
+      <nav>
+        <ul class="menu">
+          <li><a href="#home" class="link nav-link">Home</a></li>
+          <li><a href="#about" class="link nav-link">About Me</a></li>
+          <li><a href="#services" class="link nav-link">Skills</a></li>
+          <li><a href="#contact" class="link nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="toggle mobile-menu-btn">
+        <span class="bar line"></span>
+        <span class="bar line"></span>
+        <span class="bar line"></span>
+      </div>
+    </div>
+  </header>
+  <!-- Hero -->
+  <section id="home" class="banner">
+    <div class="banner-bg"></div>
+    <div class="banner-content">
+      <h1 class="banner-title">Responsive Website</h1>
+      <p class="banner-text">Explore this Responsive by Scrolling down</p>
+      <div class="banner-actions">
+        <a href="#services" class="btn primary">Let's Begin</a>
+        <a href="#contact" class="btn outline">Contact Us</a>
+      </div>
+    </div>
+  </section>
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, suscipit omnis! Dicta harum vel dolorem laborum quae animi amet eligendi eaque velit, vero cumque laudantium incidunt accusamus eos commodi distinctio.</p>
+    </div>
+  </section>
+  <!-- Services -->
+  <section id="services" class="section section-dark">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="features">
+        <div class="feature">
+          <div class="feature-icon">💻</div>
+          <h3>Front-End Web Development</h3>
+          <p>HTML , CSS and JavaScript are the well known Languages in Front-end Web Development.</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">✍</div>
+          <h3>Content Writing</h3>
+          <p>e-Book Writing and Publishing.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container"> 
+        <center>
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn primary">Send Message</button>
+        </form>
+        </center>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="footer">
+    <p>All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
